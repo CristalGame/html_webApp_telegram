@@ -1,0 +1,63 @@
+body {
+	background-color: #aaa;
+	font-family: Tahoma;
+	font-size: 20px;
+	
+
+}
+
+.Page {
+	width: 100%;
+	max-width: 800px;
+
+}
+
+.rand, .price {
+	vertical-align: top;
+	
+	color: #000;
+	
+	text-decoration: none;
+	text-align: center;
+	margin: 20px auto;
+	margin-bottom: 40px;
+	display: block;
+	width: 400px;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px;
+}
+
+.btnRand, .btnUSD, .btnEUR, .btnBTC{
+	background-color: #32A898;
+	padding: 8px 8px;
+	color: #000;
+	border: 3px solid #32A898;
+	border-radius: 13px;
+	text-decoration: none;
+	text-align: center;
+	margin: 20px auto;
+	
+	width: 100px;
+}
+
+.btnRand, .btnBTC {
+	display: block;
+}
+
+.USDEUR {
+	display: flex;
+	justify-content: center; 
+	margin: 5px 210px;
+}
+
+button:hover{
+	background-color: #ff304a;
+
+}
+pre, h3{
+	background: rgba(255, 255, 255, .15);
+	text-align: center;
+}
